@@ -1,0 +1,38 @@
+/* Roboto Condensed font for special word */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap");
+/* Inter font for global */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800&display=swap");
+
+/* tailwind css config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset default css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* common class preset */
+
+.logo {
+  font-family: "Oswald", sans-serif;
+
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navigation {
+  overflow: auto;
+}
+.navigation::-webkit-scrollbar {
+  width: 0;
+  opacity: 0;
+}
+
+input[type="range"]::-ms-track {
+  background: #fd7270;
+}
